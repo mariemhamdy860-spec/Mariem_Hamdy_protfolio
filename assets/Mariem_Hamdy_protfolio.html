@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mariem Hamdy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mariem Hamdy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./photo_2.jpg" alt="Mariem Hamdy profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mariem Hamdy</h1>
+        <p class="section__text__p2">Data Scientist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./Mariem_Hamdy_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mariem-hamdy-595512338?utm_source=share_via&utm_content=profile&utm_medium=member_android'"
+          />
+          <img
+            src="./github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/mariemhamdy860-spec'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="./education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Faculty of Science, Ain Shams University <br>
+                 Bachelor's Degree in Science (In Progress) <br>
+                Expected Graduation: 2027 <br>
+                2023 – Present</p>
+            </div>
+          </div>
+<div class="text-container">
+  <p><b>In a world full of data, I don't just analyze numbers—I uncover insights that drive real results.</b></p>
+  <br>
+  <p><b>Data tells stories, and my mission is to translate them into clear, actionable strategies. 
+  Whether it's boosting sales, improving customer experience, or enabling smarter decisions, 
+  I use tools from Machine Learning to Predictive Analytics to deliver customized solutions.</b></p>
+  <p><b>I don't just create reports—I provide a data-driven compass to guide businesses toward success.</b></p>
+</div>
+
+        </div>
+      </div>
+      <img
+        src="./arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container ai-container">
+            <h2 class="experience-sub-title">AI & Data Science</h2>
+              
+              <h4>DEPI AI & Data Science Track</h4>
+    <p><i>IBM | June 2025 – Present</i></p>
+    <ul>
+      <li>Learning and applying <b>Python</b> for data analysis.</li>
+      <li>Working with <b>SQL</b> for database management.</li>
+      <li>Using libraries: <b>Pandas, NumPy, Matplotlib</b> for data handling and visualization.</li>
+      <li><b>Machine Learning</b> and <b>Data Visualization</b> techniques.</li>
+      <li>Building <b>soft skills</b> such as teamwork, communication,
+        personal branding, and freelancing.</li>
+    </ul> 
+        </div>
+      </div>
+      <img
+        src="./arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="skills">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Skills</h1>
+  
+  <div class="skills-container">
+    <div class="skill-card">
+      <h3>Programming</h3>
+      <ul>
+        <li>Python</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Data Science</h3>
+      <ul>
+        <li>Pandas</li>
+        <li>NumPy</li>
+        <li>Matplotlib</li>
+        <li>Seaborn</li>
+        <li>Scikit-learn</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Databases</h3>
+      <ul>
+        <li>SQL</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Tools & Others</h3>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Excel</li>
+        <li>Power BI</li>
+        <li>Tableau</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./project_1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">El Gouna Festival Database Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/demiana25/Database_project'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/demiana25/Database_project/blob/main/ELGOUNA%20FESTIVAL_MBDFM.pdf'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mariemhamdy860@gmail.com">mariemhamdy860@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mariem-hamdy-595512338?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+  <img
+    src="./phone.png"
+    alt="Phone icon"
+    class="icon contact-icon"
+  />
+  <p><a href="tel:+201553303169">+20 155 330 3169</a></p>
+</div>
+
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Mariem Hamdy. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
